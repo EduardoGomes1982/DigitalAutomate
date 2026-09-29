@@ -1,0 +1,1 @@
+"""Clean Python project starter."""
