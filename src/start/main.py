@@ -1,10 +1,10 @@
 """Menu principal e composicao do sistema."""
 
-from start.armazenamento import armazenar, caixa_atual_de, retirar_da_caixa, CAPACIDADE_CAIXA
-from start.entrada import ler_cor, ler_id, ler_numero
-from start.persistencia import carregar_estado, salvar_estado
-from start.qualidade import avaliar_peca
-from start.relatorio import gerar_relatorio
+from armazenamento import armazenar, caixa_atual_de, retirar_da_caixa, CAPACIDADE_CAIXA
+from entrada import ler_cor, ler_id, ler_numero
+from persistencia import carregar_estado, salvar_estado
+from qualidade import avaliar_peca
+from relatorio import gerar_relatorio
 
 
 def cadastrar_peca(aprovadas, reprovadas, caixas, caixa_atual):
