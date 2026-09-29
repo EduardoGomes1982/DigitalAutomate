@@ -1,1 +1,1 @@
-"""Clean Python project starter."""
+"""Pacote do Desafio de Automacao Digital."""
